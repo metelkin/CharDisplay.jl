@@ -1,6 +1,6 @@
 name = "CharDisplay"
 uuid = "30bcdc87-1d00-4f18-8b01-f1692152c509"
-authors = ["Evgeny Metelkin <metelkin@insysbio.com>"]
+authors = ["Evgeny Metelkin <evgeny.metelkin@gmail.com>"]
 version = "0.1.0"
 
 [deps]

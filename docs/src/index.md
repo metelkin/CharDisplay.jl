@@ -17,6 +17,25 @@ The package can be installed from Julia environment with:
 ] add https://github.com/metelkin/CharDisplay.jl.git
 ```
 
+## Usage
+
+```julia
+# setting connected pins
+d = DisplayP4(
+    2, # RS
+    3, # RW
+    4, # E
+    5, # D7
+    6, # D6
+    7, # D5
+    8  # D4
+)
+
+write(d, "Julia +")
+set_cursor(d, 0, 1) # move cursor to the second line
+write(d, "Raspberry Pi")
+```
+
 ## Circuits
 
 ### A. Connection for 4 bit mode
@@ -48,25 +67,6 @@ For example this scheme is based on the following connections:
 - A, R (light power) can be connected to 3.3V or 5V bus
 
 ![scheme-a](./scheme-b.png)
-
-## Usage
-
-```julia
-# setting connected pins
-d = DisplayP4(
-    2, # RS
-    3, # RW
-    4, # E
-    5, # D7
-    6, # D6
-    7, # D5
-    8  # D4
-)
-
-write(d, "Julia +")
-set_cursor(d, 0, 1) # move cursor to the second line
-write(d, "Raspberry Pi")
-```
 
 ## Known issues and limitations
 
