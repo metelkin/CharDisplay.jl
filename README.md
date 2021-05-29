@@ -6,6 +6,8 @@ Raspberry Pi package for controlling 16x2 character display (1602 LCD) on **HD44
 [![GitHub license](https://img.shields.io/github/license/metelkin/CharDisplay.jl.svg)](https://github.com/metelkin/CharDisplay.jl/blob/master/LICENSE)
 [![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://metelkin.github.io/CharDisplay.jl/dev)
 
+![display-view](docs/src/display-view.jpg)
+
 List of compatible modules
 - MT–16S2H (КБ1013ВГ6, Angstrem)
 - HD44780S (Hitachi)
@@ -16,7 +18,7 @@ List of compatible modules
 
 ## More info
 
-[See the docs](https://metelkin.github.io/CharDisplay.jl/dev).
+[Read the docs](https://metelkin.github.io/CharDisplay.jl/dev).
 
 ### TODO list
 
